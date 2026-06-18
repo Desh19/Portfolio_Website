@@ -77,7 +77,7 @@ const Top = styled.div`
 
 const Image = styled.img`
     height: 50px;
-    background-color: #000;
+    // background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
@@ -149,6 +149,7 @@ const ExperienceCard = ({ experience }) => {
         <Card>
             <Top>
                 <Image src={experience.img} />
+                    {/* <Image src='../../../images/tech84.jpg' /> */}
                 <Body>
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>
@@ -157,10 +158,15 @@ const ExperienceCard = ({ experience }) => {
             </Top>
             <Description>
                 {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+                    // <Span>{experience?.desc}</Span>
+                    <ItemWrapper>
+                        {experience?.desc?.map((item, index) => (
+                            <Skill key={index}>• {item}</Skill>
+                        ))}
+                    </ItemWrapper>
 
                 }
-                {experience?.skills &&
+                {/* {experience?.skills &&
                     <>
                         <br />
                         <Skills>
@@ -172,7 +178,7 @@ const ExperienceCard = ({ experience }) => {
                             </ItemWrapper>
                         </Skills>
                     </>
-                }
+                } */}
             </Description>
             {experience.doc &&
                 <a href={experience.doc} target="new">

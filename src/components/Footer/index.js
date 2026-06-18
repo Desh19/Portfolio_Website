@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Maneesha Fernando</Logo>
+        <Logo>Deshan Rajapaksha</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -102,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Maneesha Fernando. All rights reserved.
+          &copy; {new Date().getFullYear()} Deshan Rajapaksha. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
