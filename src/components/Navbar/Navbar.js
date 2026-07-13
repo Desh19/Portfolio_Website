@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link as LinkR } from 'react-router-dom';
-import {DiCssdeck} from "react-icons/di";
+// import {DiCssdeck} from "react-icons/di";
+import DeshLogo from "../../images/deshlogo1.png";
 import { Bio } from '../../data/constants';
 
 const Nav = styled.nav`
@@ -25,8 +26,17 @@ const NavContainer = styled.div`
     height: 60px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 0px;
     max-width: 1100px;
+
+    @media screen and (max-width: 960px) {
+        padding: 0 30px;
+    }
+
+    @media screen and (max-width: 850px) {
+        padding: 0 30px;
+    }
+
     `;
 
 const NavLogo = styled(LinkR)`
@@ -64,6 +74,14 @@ const NavItems = styled.ul`
     gap: 32px;
     list-style: none;
 
+    @media screen and (max-width: 960px) {
+        gap: 18px;
+    }
+
+    @media screen and (max-width: 850px) {
+        gap: 12px;
+    }
+
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -78,6 +96,15 @@ const NavLink = styled.a`
     &:hover {
         color: ${({theme}) => theme.primary};
     }
+
+    @media screen and (max-width: 960px) {
+        font-size: 18px;
+    }
+
+    @media screen and (max-width: 850px) {
+        font-size: 15px;
+    }
+
 `;
 
 const GitHubButton = styled.a`
@@ -123,6 +150,22 @@ export const Span = styled.div`
     font-size: 18px;
 `;
 
+const LogoImage = styled.img`
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+
+  @media screen and (max-width: 960px) {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  @media screen and (max-width: 640px) {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+`;
+
 
 
 const Navbar = () => {
@@ -140,7 +183,8 @@ const Navbar = () => {
                 cursor: "pointer",
              }}
             >
-                <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
+                <LogoImage src={DeshLogo} alt="Portfolio Logo" />
+    <Span>Portfolio</Span>
             </a></NavLogo>
             <MobileIcon></MobileIcon>
             <NavItems>
@@ -149,7 +193,7 @@ const Navbar = () => {
                 <NavLink href='#experience'>Experience</NavLink>
                 <NavLink href='#projects'>Projects</NavLink>
                 <NavLink href='#education'>Education</NavLink>
-                {/* <NavLink href='#contact'>Contact</NavLink> */}
+                <NavLink href='#contact'>Contact</NavLink>
             </NavItems>
             <ButtonContainer>
                 <GitHubButton href={Bio.github}>Github Profile</GitHubButton>

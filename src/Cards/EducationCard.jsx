@@ -5,7 +5,7 @@ const Document = styled.img`
     display: none;
     height: 70px;
     width: fit-content;
-    background-color: #000;
+    // background-color: #000;
     border-radius: 10px;
     &:hover{
         cursor: pointer;
@@ -15,6 +15,7 @@ const Document = styled.img`
 
 const Description = styled.div`
     width: 100%;
+    height: 100%;
     font-size: 15px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -24,13 +25,22 @@ const Description = styled.div`
     }
 `
 
-const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
+// const Span = styled.span`
+// overflow: hidden;
+// display: -webkit-box;
+// max-width: 100%;
+// -webkit-line-clamp: 4;
+// -webkit-box-orient: vertical;
+// text-overflow: ellipsis;
+// `
+
+const Span = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
 `
 
 const Card = styled.div`
@@ -75,8 +85,8 @@ const Top = styled.div`
 
 const Image = styled.img`
     height: 50px;
-    background-color: #000;
-    border-radius: 10px;
+    // background-color: #000;
+    // border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
         height: 40px;
@@ -126,8 +136,6 @@ const Grade = styled.div`
     }
 `
 
-
-
 const EducationCard = ({ education }) => {
     return (
         <Card>
@@ -141,7 +149,7 @@ const EducationCard = ({ education }) => {
             </Top>
             <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                    <Span>{education.desc}</Span>
             </Description>
         </Card>
     )

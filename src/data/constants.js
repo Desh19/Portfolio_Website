@@ -1,3 +1,7 @@
+import tech84Image from "../../src/images/tech84.jpg";
+import SchoolImage from "../../src/images/Ananda_Sastralaya.png";
+import SLIITImage from "../../src/images/SLIITImage.png";
+
 export const Bio = {
   name: "Deshan Rajapaksha",
   roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
@@ -7,8 +11,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1jIPdm9ZcLmBlAfgw8y6_CrGW2ZI0M5rl/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/maneesha-fernando-539576233/",
-  // insta: "https://www.instagram.com/rishav_chanda/",
+  insta: "https://www.instagram.com/rishav_chanda/",
   facebook: "https://web.facebook.com/manee.fernando.106/",
+  twitter: "https://web.facebook.com/manee.fernando.106/",
 };
 
 export const skills = [
@@ -176,7 +181,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "../../images/tech84.jpg",
+    img: tech84Image,
     role: "Team Lead / Frontend Software Engineer",
     company: "Tech84 (Pvt) Ltd",
     date: "May 2026 - Present",
@@ -189,7 +194,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "../../images/tech84.jpg",
+    img: tech84Image,
     role: "Frontend Software Engineer",
     company: "Tech84 (Pvt) Ltd",
     date: "January 2024 - May 2026",
@@ -202,7 +207,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: '../../images/tech84.jpg',
+    img: tech84Image,
     role: "Software Engineer Intern",
     company: "Tech84 (Pvt) Ltd",
     date: "July 2023 - January 2024",
@@ -229,17 +234,17 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://seeklogo.com/vector-logo/611785/sliit-campus",
+    img: SLIITImage,
     school: "Sri Lanka Institute of Information Teachnology",
-    date: "Oct 2021 - Sep 2025",
+    date: "Oct 2020 - Sep 2024",
     grade: "3.0 CGPA",
     desc: "I am currently pursuing a B.Sc. (hons) in Information Technology specialization in Software Engineering at Sri Lanka Institute of Information Technology. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Developing, Web Designing, and UI/UX designing among others.",
     degree:
-      "B.Sc. (hons) in Information Technology specialization in Software Engineering [UDG]",
+      "B.Sc. (hons) in Information Technology specialization in Software Engineering",
   },
   {
     id: 1,
-    img: '../../images/Ananda_Sastralaya.png',
+    img: SchoolImage,
     school: "Ananda Sastralaya - Kotte",
     date: "2005 - 2018",
     grade: "GCE Ordinary level - 2015 and GCE Advance level - 2018",
