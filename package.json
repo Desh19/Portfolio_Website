@@ -1,5 +1,5 @@
 {
-  "homepage": "http://SManeesha99.github.io/Website",
+  "homepage": "https://github.com/Desh19/Portfolio_Website.git",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
