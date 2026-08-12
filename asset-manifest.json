@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Desh19/Portfolio_Website.git/static/css/main.c55bdca2.css",
-    "main.js": "/Desh19/Portfolio_Website.git/static/js/main.97adf32a.js",
-    "static/js/592.bf6ca574.chunk.js": "/Desh19/Portfolio_Website.git/static/js/592.bf6ca574.chunk.js",
-    "static/media/ProfImage.JPG": "/Desh19/Portfolio_Website.git/static/media/ProfImage.b6919a53c7f3758b3597.JPG",
-    "static/media/deshlogo1.png": "/Desh19/Portfolio_Website.git/static/media/deshlogo1.0e918237ae7669adb7ef.png",
-    "static/media/Ananda_Sastralaya.png": "/Desh19/Portfolio_Website.git/static/media/Ananda_Sastralaya.cd809ea1f66bebe7a1a9.png",
-    "static/media/SLIITImage.png": "/Desh19/Portfolio_Website.git/static/media/SLIITImage.9dd2055edb4af33f8c76.png",
-    "index.html": "/Desh19/Portfolio_Website.git/index.html",
-    "main.c55bdca2.css.map": "/Desh19/Portfolio_Website.git/static/css/main.c55bdca2.css.map",
-    "main.97adf32a.js.map": "/Desh19/Portfolio_Website.git/static/js/main.97adf32a.js.map",
-    "592.bf6ca574.chunk.js.map": "/Desh19/Portfolio_Website.git/static/js/592.bf6ca574.chunk.js.map"
+    "main.css": "/Desh19/Portfolio_Website/static/css/main.c55bdca2.css",
+    "main.js": "/Desh19/Portfolio_Website/static/js/main.87e0b8c2.js",
+    "static/js/592.bf6ca574.chunk.js": "/Desh19/Portfolio_Website/static/js/592.bf6ca574.chunk.js",
+    "static/media/ProfImage.JPG": "/Desh19/Portfolio_Website/static/media/ProfImage.b6919a53c7f3758b3597.JPG",
+    "static/media/deshlogo1.png": "/Desh19/Portfolio_Website/static/media/deshlogo1.0e918237ae7669adb7ef.png",
+    "static/media/Ananda_Sastralaya.png": "/Desh19/Portfolio_Website/static/media/Ananda_Sastralaya.cd809ea1f66bebe7a1a9.png",
+    "static/media/SLIITImage.png": "/Desh19/Portfolio_Website/static/media/SLIITImage.9dd2055edb4af33f8c76.png",
+    "index.html": "/Desh19/Portfolio_Website/index.html",
+    "main.c55bdca2.css.map": "/Desh19/Portfolio_Website/static/css/main.c55bdca2.css.map",
+    "main.87e0b8c2.js.map": "/Desh19/Portfolio_Website/static/js/main.87e0b8c2.js.map",
+    "592.bf6ca574.chunk.js.map": "/Desh19/Portfolio_Website/static/js/592.bf6ca574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c55bdca2.css",
-    "static/js/main.97adf32a.js"
+    "static/js/main.87e0b8c2.js"
   ]
 }
