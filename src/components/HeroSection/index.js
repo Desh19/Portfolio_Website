@@ -421,7 +421,7 @@ const Hero = () => {
       <HeroInnerContainer>
         <HeroLeftContainer>
           <Title>
-            Hi, I am <br />
+            Hi, I am a <br />
             {Bio.name}
           </Title>
 
