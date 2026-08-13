@@ -1,19 +1,22 @@
 import tech84Image from "../../src/images/tech84.jpg";
 import SchoolImage from "../../src/images/Ananda_Sastralaya.png";
 import SLIITImage from "../../src/images/SLIITImage.png";
+import EcoWasteWEBImage from "../../src/images/EcoWaseWebImage.png";
+import GreenPropertiesWEBImage from "../../src/images/GreenPropertiesWebImage.png";
 
 export const Bio = {
   name: "Deshan Rajapaksha",
-  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
+  // Full Stack Developer",
+  roles: ["Frontend Software Engineer", "UI/UX Designer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Desh19",
   resume:
-    "https://drive.google.com/file/d/1jIPdm9ZcLmBlAfgw8y6_CrGW2ZI0M5rl/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/maneesha-fernando-539576233/",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://web.facebook.com/manee.fernando.106/",
-  twitter: "https://web.facebook.com/manee.fernando.106/",
+    "https://drive.google.com/file/d/1w77kOmd3pAWU6puyiJnD3qeBYEyNVz-J/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/deshan-rajapaksha-606140226/",
+  insta: "https://www.instagram.com/__desh__19/",
+  facebook: "https://www.facebook.com/deshan.chathuranga.10",
+  twitter: "https://x.com/Desh_Rajapaksha",
 };
 
 export const skills = [
@@ -184,7 +187,7 @@ export const experiences = [
     img: tech84Image,
     role: "Team Lead / Frontend Software Engineer",
     company: "Tech84 (Pvt) Ltd",
-    date: "May 2026 - Present",
+    date: "May 2026 - July 2026",
     desc: [
       "Lead frontend development activities and mentor engineers in delivering high quality web applications.",
       "Review code, coordinate releases, and ensure frontend best practices.",
@@ -264,20 +267,21 @@ export const projects = [
       "https://res.cloudinary.com/drao60sj6/image/upload/v1734365084/y2i8obxnqwzoun9x4h0a.png",
     tags: [, "C#", "SQL Server", "Windows Form", ".NET Framework"],
     category: "",
-    github: "https://github.com/SManeesha99/StudentManagment.git",
+    github: "https://github.com/Desh19/StudentManagment.git",
     webapp: "",
   },
   {
-    id: 10,
-    title: "School Management System - Desktop Application",
-    date: "December 2024",
+    id: 9,
+    title: "EcoWaste – Smart Waste Management System",
+    date: "July 2025",
     description:
-      "This project is a Windows Forms Application developed in C# using .NET Framework. It enables the management of student data, including adding, editing, and viewing student records. The application uses a SQL Server database for data storage and supports functionalities like image uploads and date-based record management.",
-    image:
-      "https://res.cloudinary.com/drao60sj6/image/upload/v1734365085/o2ms5ilvkawlmurxajkc.png",
-    tags: [, "C#", "SQL Server", "Windows Form", ".NET Framework"],
+      "EcoWaste is a smart waste management web application designed to make waste collection, recycling, and disposal more efficient and user-friendly. The platform provides a modern digital interface for managing waste-related activities and promotes responsible waste handling through technology. The system focuses on creating a streamlined experience for users to interact with waste management services, while incorporating QR-based functionality to support identification and tracking workflows. The responsive interface is designed with a clean, intuitive experience suitable for modern web applications.",
+    // image:
+    //   "https://res.cloudinary.com/drao60sj6/image/upload/v1734365084/y2i8obxnqwzoun9x4h0a.png",
+    image: EcoWasteWEBImage,
+    tags: ["React", "Vite", "Tailwind CSS ", "JavaScript / JSX "],
     category: "",
-    github: "https://github.com/SManeesha99/School-Management-System.git",
+    github: "https://github.com/Desh19/CSSE_Frontend.git",
     webapp: "",
   },
   {
@@ -290,7 +294,7 @@ export const projects = [
       "https://res.cloudinary.com/drao60sj6/image/upload/v1734365086/idl3e2tw9u84rb8fh0pz.png",
     tags: [, "C#", "SQL Server", "Windows Form", ".NET Framework"],
     category: "",
-    github: "https://github.com/SManeesha99/Inventory_Management_System.git",
+    github: "https://github.com/Desh19/Inventory_Management_System.git",
     webapp: "",
   },
   {
@@ -303,20 +307,19 @@ export const projects = [
       "https://res.cloudinary.com/drao60sj6/image/upload/v1722753100/pro1_mu1uyt.png",
     tags: [, "React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
-    github: "https://github.com/SManeesha99/MULD_CSSE_WE_52.git",
+    github: "https://github.com/Desh19/MULD_CSSE_WE_52.git",
     webapp: "",
   },
   {
     id: 13,
-    title: "Employee Contact Details Orgernizer",
-    date: "May 2024",
+    title: "GreenProperties – Real Estate Property Management Platform",
+    date: "January 2021",
     description:
-      "The Employee Contact Details Organizer is a Swift application developed using Core Data to perform CRUD (Create, Read, Update, Delete) operations on employee details. The application allows users to manage employee information efficiently and includes a search feature to find employees by name and job title. Additionally, the app indicates the availability status of employees with a green circle next to their name in the list, making it easy for users to see who is currently available.",
-    image:
-      "https://res.cloudinary.com/drao60sj6/image/upload/v1722754960/Blue_And_White_Modern_App_Launch_Mobile_Phone_Photo_Frame_Facebook_Post_thcj51.png",
-    tags: [, "Swift"],
-    category: "mibile app",
-    github: "",
+      "GreenProperties is a fully functional real estate web application developed to simplify the process of buying and selling properties online. The platform provides users with a structured interface to browse properties, manage accounts, create property advertisements, and interact with property listings. The system includes dedicated functionality for sellers, including property advertisement creation and validation, along with user authentication, property and land listings, account management, and online payment functionality. The project was developed as a complete web-based property management solution with a focus on usability and practical real-estate workflows.",
+    image: GreenPropertiesWEBImage,
+    tags: ["HTML5", "CSS3", "JavaScript", " PHP"],
+    category: "web app",
+    github: "https://github.com/Desh19/GreenProperties.git",
     webapp: "",
   },
   {
@@ -329,7 +332,7 @@ export const projects = [
       "https://res.cloudinary.com/drao60sj6/image/upload/v1722794388/nature_plant_social_media_template_Facebook_Post_d3z6cn.png",
     tags: [, "Android studio", "Java", "REST API"],
     category: "mibile app",
-    github: "https://github.com/SManeesha99/Food_Recipe_App.git",
+    github: "https://github.com/Desh19/Food_Recipe_App.git",
     webapp: "",
   },
   {
@@ -342,7 +345,7 @@ export const projects = [
       "https://res.cloudinary.com/drao60sj6/image/upload/v1722795241/Screenshot_2024-08-04_at_23-39-35_Salary_Calculation_g2tmdy.png",
     tags: [, "TypeScript"],
     category: "web app",
-    github: "https://github.com/SManeesha99/salary-calculator.git",
+    github: "https://github.com/Desh19/salary-calculator.git",
     webapp: "",
   },
 ];

@@ -250,7 +250,8 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/ProfImage.JPG";
+// import HeroImg from "../../images/ProfImage.JPG";
+import HeroImg from "../../images/Deshan_Img.png";
 import HeroBgAnimation from "../../HeroBgAnimation";
 
 const HeroContainer = styled.section`

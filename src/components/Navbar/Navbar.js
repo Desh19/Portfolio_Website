@@ -196,7 +196,9 @@ const Navbar = () => {
                 <NavLink href='#contact'>Contact</NavLink>
             </NavItems>
             <ButtonContainer>
-                <GitHubButton href={Bio.github}>Github Profile</GitHubButton>
+                <GitHubButton href={Bio.github} target="_blank">
+                    Github Profile
+                </GitHubButton>
             </ButtonContainer>
         </NavContainer>
     </Nav>
