@@ -240,8 +240,8 @@ export const education = [
     img: SLIITImage,
     school: "Sri Lanka Institute of Information Teachnology",
     date: "Oct 2020 - Sep 2024",
-    grade: "3.0 CGPA",
-    desc: "I am currently pursuing a B.Sc. (hons) in Information Technology specialization in Software Engineering at Sri Lanka Institute of Information Technology. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Developing, Web Designing, and UI/UX designing among others.",
+    grade: "2.7 CGPA",
+    desc: "I hold a B.Sc. (Hons) in Information Technology, specializing in Software Engineering, from the Sri Lanka Institute of Information Technology (SLIIT). Throughout my degree, I developed a strong foundation in Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Software Development, Web Development, and UI/UX Design, among other areas. My academic journey has strengthened both my technical knowledge and practical software engineering skills, enabling me to design, develop, and maintain effective software solutions.",
     degree:
       "B.Sc. (hons) in Information Technology specialization in Software Engineering",
   },
