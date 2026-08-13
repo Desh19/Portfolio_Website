@@ -19,7 +19,6 @@
 //   z-index: 1;
 // `;
 
-
 // const HeroInnerContainer = styled.div`
 //   display: flex;
 //   justify-content: space-between;
@@ -168,7 +167,6 @@
 //   }
 // `;
 
-
 // const ResumeButton = styled.a`
 // -webkit-appearance: button;
 // -moz-appearance: button;
@@ -195,17 +193,14 @@
 // transition: all 0.4s ease-in-out;
 // box-shadow:  20px 20px 60px #1F2634,
 // filter: brightness(1);
-// }    
-
+// }
 
 // @media (max-width: 640px) {
 //     padding: 12px 0;
 //     font-size: 18px;
-// } 
+// }
 
 // `;
-
-
 
 // const index = () => {
 //   return (
@@ -422,7 +417,7 @@ const Hero = () => {
       <HeroInnerContainer>
         <HeroLeftContainer>
           <Title>
-            Hi, I am a <br />
+            Hi, I am <br />
             {Bio.name}
           </Title>
 

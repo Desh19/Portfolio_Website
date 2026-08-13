@@ -9,7 +9,7 @@ export const Bio = {
   // Full Stack Developer",
   roles: ["Frontend Software Engineer", "UI/UX Designer", "Programmer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I’m a motivated and adaptable individual with a passion for learning and growth. I enjoy taking on new challenges, developing my skills, and delivering high-quality results. With a positive mindset and a strong commitment to continuous improvement, I’m always ready to make a meaningful contribution.",
   github: "https://github.com/Desh19",
   resume:
     "https://drive.google.com/file/d/1w77kOmd3pAWU6puyiJnD3qeBYEyNVz-J/view?usp=sharing",
