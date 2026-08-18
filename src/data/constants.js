@@ -7,7 +7,12 @@ import GreenPropertiesWEBImage from "../../src/images/GreenPropertiesWebImage.pn
 export const Bio = {
   name: "Deshan Rajapaksha",
   // Full Stack Developer",
-  roles: ["Frontend Software Engineer", "UI/UX Designer", "Programmer"],
+  roles: [
+    "Software Engineer",
+    "Frontend Developer",
+    "UI/UX Designer",
+    "Programmer",
+  ],
   description:
     "I’m a motivated and adaptable individual with a passion for learning and growth. I enjoy taking on new challenges, developing my skills, and delivering high-quality results. With a positive mindset and a strong commitment to continuous improvement, I’m always ready to make a meaningful contribution.",
   github: "https://github.com/Desh19",
@@ -170,7 +175,8 @@ export const skills = [
       },
       {
         name: "Adobe XD",
-        image: "https://img.icons8.com/?size=100&id=4VVL78edhbW9&format=png&color=000000",
+        image:
+          "https://img.icons8.com/?size=100&id=4VVL78edhbW9&format=png&color=000000",
       },
       {
         name: "Figma",
