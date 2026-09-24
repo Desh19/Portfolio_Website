@@ -191,7 +191,7 @@ export const experiences = [
   {
     id: 0,
     img: tech84Image,
-    role: "Team Lead / Frontend Software Engineer",
+    role: "Team Lead / Software Engineer",
     company: "Tech84 (Pvt) Ltd",
     date: "May 2026 - July 2026",
     desc: [
@@ -204,7 +204,7 @@ export const experiences = [
   {
     id: 0,
     img: tech84Image,
-    role: "Frontend Software Engineer",
+    role: "Software Engineer",
     company: "Tech84 (Pvt) Ltd",
     date: "January 2024 - May 2026",
     desc: [
@@ -217,7 +217,7 @@ export const experiences = [
   {
     id: 0,
     img: tech84Image,
-    role: "Software Engineer Intern",
+    role: "Junior Software Engineer",
     company: "Tech84 (Pvt) Ltd",
     date: "July 2023 - January 2024",
     desc: [
