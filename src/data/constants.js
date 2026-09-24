@@ -17,7 +17,7 @@ export const Bio = {
     "I’m a motivated and adaptable individual with a passion for learning and growth. I enjoy taking on new challenges, developing my skills, and delivering high-quality results. With a positive mindset and a strong commitment to continuous improvement, I’m always ready to make a meaningful contribution.",
   github: "https://github.com/Desh19",
   resume:
-    "https://drive.google.com/file/d/1w77kOmd3pAWU6puyiJnD3qeBYEyNVz-J/view?usp=sharing",
+    "https://drive.google.com/file/d/1G5B98H4vZ_cjP74Bs12QLoJ4WE28DPa7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/deshan-rajapaksha-606140226/",
   insta: "https://www.instagram.com/__desh__19/",
   facebook: "https://www.facebook.com/deshan.chathuranga.10",
